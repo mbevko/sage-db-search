@@ -1,4 +1,4 @@
-const AccountsPayable = [
+const initialDetails = [
     {
         TABLE: 'APADV',
         TITLE: 'PAYMENT ADVICES'
@@ -114,3 +114,6 @@ const AccountsPayable = [
     'APVNRO: REMIT-TO LOCATION OPTIONAL FIELD VALUES',
     'APVSM: VENDOR STATISTICS' */
 ]
+
+
+export default initialDetails
