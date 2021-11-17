@@ -1,6 +1,7 @@
 import './App.css';
 import Search from './components/Search';
 import initialDetails from './initialDetails';
+import 'semantic-ui-css/semantic.min.css';
 
 function App() {
   return (

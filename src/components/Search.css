@@ -1,0 +1,12 @@
+input {
+    width: 300px;
+}
+
+.app_body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 90vh;
+    justify-content: space-around;
+}
+
