@@ -7,10 +7,14 @@ input {
     flex-direction: column;
     margin: auto;
     height: 90vh;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .header {
     color: rgb(7, 7, 75);
+    text-align: center;
+}
+
+.main_header {
 }

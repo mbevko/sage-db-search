@@ -1,9 +1,8 @@
 //add all modules
 //find table design that colors every other row (or design yourself)
 //possibly highlite search results (not necessary since others dissapear)
-//hide all documents from main page
+//hide initial details from main page
 //style header
-//
 
 const initialDetails = [
     {
@@ -28,7 +27,7 @@ const initialDetails = [
         id: 4,
         MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APCCS',
-        TITLE: '1099 / CRS AMOUNTS'
+        TITLE: '1099 / CPRS AMOUNTS'
     },
     {
         id: 5,
@@ -73,28 +72,28 @@ const initialDetails = [
         TITLE: 'INVOICE DETAILS'
     },
     {
-        id: 10,
+        id: 12,
         MODULE: 'ACCOUNTS PAYABLE',
-        TABLE: 'APIBC',
-        TITLE: 'INVOICE BATCHES'
+        TABLE: 'APIBDA',
+        TITLE: 'INVOICE DETAIL SAGE FIXED ASSETS FIELDS'
     },
     {
-        id: 10,
+        id: 13,
         MODULE: 'ACCOUNTS PAYABLE',
-        TABLE: 'APIBC',
-        TITLE: 'INVOICE BATCHES'
+        TABLE: 'APIBDO',
+        TITLE: 'INVOICE DETAIL OPTIONAL FIELDS'
     },
     {
-        id: 10,
+        id: 14,
         MODULE: 'ACCOUNTS PAYABLE',
-        TABLE: 'APIBC',
-        TITLE: 'INVOICE BATCHES'
+        TABLE: 'APIBH',
+        TITLE: 'INVOICES'
     },
     {
-        id: 10,
+        id: 15,
         MODULE: 'ACCOUNTS PAYABLE',
-        TABLE: 'APIBC',
-        TITLE: 'INVOICE BATCHES'
+        TABLE: 'APIBHO',
+        TITLE: 'INVOICE OPTIONAL FIELDS'
     },
 
     
