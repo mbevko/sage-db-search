@@ -9,7 +9,7 @@ function Search({details}) {
         setSearchField] = useState("");
 
     const filteredItems = details.filter(item => {
-        return (item.TABLE.toUpperCase().includes(searchField.toUpperCase()) || item.TITLE.toUpperCase().includes(searchField.toUpperCase()));
+        return (item.TABLE.toUpperCase().includes(searchField.toUpperCase()) || item.TITLE.toUpperCase().includes(searchField.toUpperCase()) || item.MODULE.toUpperCase().includes(searchField.toUpperCase()));
     });
 
     const handleChange = e => {
@@ -26,10 +26,8 @@ function Search({details}) {
 
     return (
         <section className="app_body">
-            <div>
-                <h2>Sage 300 Tables or whatever</h2>
-            </div>
-            <div class="ui icon input"><input type="text" onChange={handleChange} placeholder="Search Table or Title"/>
+            <div className="ui huge header">Sage 300 ERP</div>
+            <div className="ui icon input"><input type="text" onChange={handleChange} placeholder="Search Table or Title"/>
                 <i aria-hidden="true" class="search circular link icon"></i>
             </div>
             {searchList()}

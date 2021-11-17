@@ -3,23 +3,19 @@ import './Card.css'
 
 function Card({item}) {
 
-    return(
-
-        <div>
-             <table class="ui celled table">
-                <tbody class="">
-                   
-                            <tr>
-                                <td className="table">{item.TABLE}</td>
-                                <td className="title">
-                                    {item.TITLE}
-                                </td>
-                            </tr>
-                </tbody>
-            </table>
-        </div>
+    return (       
+        <tr>
+            <td className="module">
+                {item.MODULE}
+            </td>
+            <td className="table">
+                {item.TABLE}
+            </td>
+            <td className="title">
+                {item.TITLE}
+            </td>
+        </tr>
     )
 }
 
 export default Card
-

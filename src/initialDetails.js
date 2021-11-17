@@ -1,54 +1,105 @@
+//add all modules
+//find table design that colors every other row (or design yourself)
+//possibly highlite search results (not necessary since others dissapear)
+//hide all documents from main page
+//style header
+//
+
 const initialDetails = [
     {
         id: 1,
+        MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APADV',
         TITLE: 'PAYMENT ADVICES'
     },
     {
         id: 2,
+        MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APAGED',
         TITLE: 'AGED DOCUMENTS'
     },
     {
         id: 3,
+        MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APBTA',
         TITLE: 'PAYMENT AND ADJUSTMENT BATCHES'
     },
     {
         id: 4,
+        MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APCCS',
         TITLE: '1099 / CRS AMOUNTS'
     },
     {
         id: 5,
+        MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APCLX',
         TITLE: '1099 / CPRS CODES'
     },
     {
         id: 6,
+        MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APCMMTP',
         TITLE: 'COMMENT TYPES'
     },
     {
         id: 7,
+        MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APDSD',
         TITLE: 'DISTRIBUTION SET DETAILS'
     },
     {
         id: 8,
+        MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APDSH',
         TITLE: 'DISTRIBUTION SETS'
     },
     {
         id: 9,
+        MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APGLREF',
         TITLE: 'G/L REFERENCE INTEGRATION'
     },
     {
         id: 10,
+        MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APIBC',
         TITLE: 'INVOICE BATCHES'
-    }/* 
+    },
+    {
+        id: 11,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APIBD',
+        TITLE: 'INVOICE DETAILS'
+    },
+    {
+        id: 10,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APIBC',
+        TITLE: 'INVOICE BATCHES'
+    },
+    {
+        id: 10,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APIBC',
+        TITLE: 'INVOICE BATCHES'
+    },
+    {
+        id: 10,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APIBC',
+        TITLE: 'INVOICE BATCHES'
+    },
+    {
+        id: 10,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APIBC',
+        TITLE: 'INVOICE BATCHES'
+    },
+
+    
+    
+    /* 
     'APIBC: INVOICE BATCHES',
     'APIBD: INVOICE DETAILS',
     'APIBDA: INVOICE DETAIL SAGE FIXED ASSETS FIELDS',

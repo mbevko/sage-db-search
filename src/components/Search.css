@@ -8,5 +8,9 @@ input {
     margin: auto;
     height: 90vh;
     justify-content: space-around;
+    align-items: center;
 }
 
+.header {
+    color: rgb(7, 7, 75);
+}
