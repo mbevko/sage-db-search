@@ -95,16 +95,34 @@ const initialDetails = [
         TABLE: 'APIBHO',
         TITLE: 'INVOICE OPTIONAL FIELDS'
     },
+    {
+        id: 16,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APIBS',
+        TITLE: 'INVOICE PAYMENT SCHEDULES'
+    },
+    {
+        id: 17,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APIBT',
+        TITLE: 'INVOICE DETAIL COMMENTS'
+    },
+    {
+        id: 18,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APINTCK',
+        TITLE: 'INTEGRITY CHECKER'
+    },
+    {
+        id: 19,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APJTR',
+        TITLE: 'JOB COSTING TRANSACTIONS'
+    },
 
     
     
     /* 
-    'APIBC: INVOICE BATCHES',
-    'APIBD: INVOICE DETAILS',
-    'APIBDA: INVOICE DETAIL SAGE FIXED ASSETS FIELDS',
-    'APIBDO: INVOICE DETAIL OPTIONAL FIELDS',
-    'APIBH: INVOICES', 
-    'APIBHO: INVOICE OPTIONAL FIELDS',
     'APIBS: INVOICE PAYMENT SCHEDULES',
     'APIBT: INVOICE DETAIL COMMENTS',
     'APINTCK: INTEGRITY CHECKER',
