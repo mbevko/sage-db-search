@@ -1,8 +1,8 @@
 //add all modules
-//find table design that colors every other row (or design yourself)
 //possibly highlite search results (not necessary since others dissapear)
-//hide initial details from main page
-//style header
+//add to git ignore
+//consider adding a checkbox that shows all tables
+
 
 const initialDetails = [
     {

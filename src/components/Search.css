@@ -1,5 +1,5 @@
 input {
-    width: 300px;
+    width: 800px;
 }
 
 .app_body {
@@ -11,10 +11,25 @@ input {
     align-items: center;
 }
 
-.header {
-    color: rgb(7, 7, 75);
-    text-align: center;
+.main_header {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
-.main_header {
+.module_head {
+    width: 150px;
+}
+
+.table_head {
+    width: 205px;
+}
+
+
+div.ui.huge {
+    color: #0c264d;
+    font-family: 'Archivo Narrow', sans-serif;
 }

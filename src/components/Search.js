@@ -38,11 +38,28 @@ function Search({details}) {
         <section className="app_body">
             <div className="main_header">
                 <div className="ui huge header">Sage 300 ERP</div>
-                <div className="ui icon input"><input type="text" onChange={handleChange} placeholder="Search Table or Title"/>
+                <div className="ui icon input"><input type="text" onChange={handleChange} placeholder="Search by  Table, or Title"/>
                     <i aria-hidden="true" class="search circular link icon"></i>
                 </div>
+                <table className="ui celled striped table">
+                <thead>
+                    <tr>
+                        <th class="module_head">
+                            MODULE
+                        </th>
+                        <th class="table_head">
+                            TABLE
+                        </th>
+                        <th class="title_head">
+                            TITLE
+                        </th>
+                    </tr>
+                </thead>
+                </table>
             </div>
-            {searchList()}
+            <table className="ui celled striped table">
+                {searchList()}
+            </table>
         </section>
     );
 }
