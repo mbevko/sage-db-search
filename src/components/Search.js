@@ -2,14 +2,24 @@ import React, {useState} from 'react';
 import Scroll from './Scroll';
 import SearchList from './SearchList';
 
-function Search({details}) {
+function Search({ details }) {
 
     const [searchField,
-        setSearchField] = useState('');
+        setSearchField] = useState("");
 
-    const filteredItems = details.filter(item => {
-        return (item.TABLE.toUpperCase().includes(searchField.toUpperCase()) || filteredItems.TITLE.toUpperCase().includes(searchField.toUpperCase));
-    });
+    const filteredItems = details.filter(
+        item => {
+        return (
+            item
+            .TABLE
+            .toUpperCase()
+            .includes(searchField.toUpperCase()) || 
+            item
+            .TITLE.toUpperCase()
+            .includes(searchField.toUpperCase())
+        );
+    }
+    );
 
     const handleChange = e => {
         setSearchField(e.target.value);
@@ -32,7 +42,8 @@ function Search({details}) {
                 <input
                     type="search"
                     placeholder="Search Table or Title"
-                    onChange={handleChange}/>
+                    onChange={handleChange}
+                    />
             </div>
             {searchList()}
         </section>

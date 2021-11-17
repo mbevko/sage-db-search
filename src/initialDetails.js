@@ -1,41 +1,51 @@
 const initialDetails = [
     {
+        id: 1,
         TABLE: 'APADV',
         TITLE: 'PAYMENT ADVICES'
     },
     {
+        id: 2,
         TABLE: 'APAGED',
         TITLE: 'AGED DOCUMENTS'
     },
     {
+        id: 3,
         TABLE: 'APBTA',
         TITLE: 'PAYMENT AND ADJUSTMENT BATCHES'
     },
     {
+        id: 4,
         TABLE: 'APCCS',
         TITLE: '1099 / CRS AMOUNTS'
     },
     {
+        id: 5,
         TABLE: 'APCLX',
         TITLE: '1099 / CPRS CODES'
     },
     {
+        id: 6,
         TABLE: 'APCMMTP',
         TITLE: 'COMMENT TYPES'
     },
     {
+        id: 7,
         TABLE: 'APDSD',
         TITLE: 'DISTRIBUTION SET DETAILS'
     },
     {
+        id: 8,
         TABLE: 'APDSH',
         TITLE: 'DISTRIBUTION SETS'
     },
     {
+        id: 9,
         TABLE: 'APGLREF',
         TITLE: 'G/L REFERENCE INTEGRATION'
     },
     {
+        id: 10,
         TABLE: 'APIBC',
         TITLE: 'INVOICE BATCHES'
     }/* 

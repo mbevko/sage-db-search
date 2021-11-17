@@ -5,8 +5,7 @@ function Card({item}) {
     return(
 
         <div>
-            <p>{item.table}</p>
-            <p>{item.title}</p>
+            <p>{item.TABLE} : {item.TITLE}</p>
         </div>
     )
 }
