@@ -47,10 +47,10 @@ function Search({details}) {
                         type="text"
                         onChange={handleChange}
                         placeholder="Search by  Table, or Title"/>
-                        <i aria-hidden="true" class="search circular link icon"></i>
+                        <i aria-hidden="true" className="search circular link icon"></i>
                     </div>
                     <button
-                        class={searchShow
+                        className={searchShow
                         ? "ui active toggle button"
                         : "ui toggle button"}
                         onClick={handleClick}>Show tables</button>
@@ -58,13 +58,13 @@ function Search({details}) {
                 <table className="ui celled striped table">
                     <thead>
                         <tr>
-                            <th class="module_head">
+                            <th className="module_head">
                                 MODULE
                             </th>
-                            <th class="table_head">
+                            <th className="table_head">
                                 TABLE
                             </th>
-                            <th class="title_head">
+                            <th className="title_head">
                                 TITLE
                             </th>
                         </tr>
