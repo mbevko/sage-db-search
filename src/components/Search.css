@@ -47,7 +47,7 @@ div.ui.huge {
 
 .filter_dropdown {
     margin: 5px auto 0 0;
-    width: 200px;
+    width: 300px;
 }
 
 @media(max-width: 700px) {

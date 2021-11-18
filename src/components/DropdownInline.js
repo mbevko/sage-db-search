@@ -1,7 +1,7 @@
 import React from 'react'
 import { Dropdown } from 'semantic-ui-react'
 
-const friendOptions = [
+const moduleOptions = [
   {
     key: 'Accounts Payable',
     text: 'Accounts Payable',
@@ -22,6 +22,36 @@ const friendOptions = [
     text: 'Bank Services',
     value: 'Bank Services',
   },
+  {
+    key: 'Common Services',
+    text: 'Common Services',
+    value: 'Common Services',
+  },
+  {
+    key: 'General Ledger',
+    text: 'General Ledger',
+    value: 'General Ledger',
+  },
+  {
+    key: 'Inventory Control',
+    text: 'Inventory Control',
+    value: 'Inventory Control',
+  },
+  {
+    key: 'Order Entry',
+    text: 'Order Entry',
+    value: 'Order Entry',
+  },
+  {
+    key: 'Project and Job Costing',
+    text: 'Project and Job Costing',
+    value: 'Project and Job Costing',
+  },
+  {
+    key: 'Purchase Orders',
+    text: 'Purchase Orders',
+    value: 'Purchase Orders',
+  }
 ]
 
 const DropdownInline = () => (
@@ -29,8 +59,8 @@ const DropdownInline = () => (
     Filter by{' '}
     <Dropdown
       inline
-      options={friendOptions}
-      defaultValue={friendOptions[0].value}
+      options={moduleOptions}
+      defaultValue={moduleOptions[0].value}
     />
   </span>
 )
