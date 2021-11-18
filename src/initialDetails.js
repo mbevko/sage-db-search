@@ -119,35 +119,135 @@ const initialDetails = [
         TABLE: 'APJTR',
         TITLE: 'JOB COSTING TRANSACTIONS'
     },
-
+    {
+        id: 20,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APMSG',
+        TITLE: 'EMAIL MESSAGES'
+    },
+    {
+        id: 21,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APOBL',
+        TITLE: 'DOCUMENTS'
+    },
+    {
+        id: 22,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APOBLJ',
+        TITLE: 'OPEN DOCUMENT DETAILS'
+    },
+    {
+        id: 23,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APOBLJO',
+        TITLE: 'OPEN DOC. DETAIL OPTIONAL FIELDS'
+    },
+    {
+        id: 24,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APOBLJP',
+        TITLE: 'DOCUMENT DETAIL PAYMENTS'
+    },
+    {
+        id: 25,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APOBLO',
+        TITLE: 'OPEN DOCUMENT OPTIONAL FIELDS'
+    },
+    {
+        id: 26,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APOBP',
+        TITLE: 'DOCUMENT PAYMENTS'
+    },
+    {
+        id: 27,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APOBS',
+        TITLE: 'DOCUMENT SCHED. PAYMENTS'
+    },
+    {
+        id: 28,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APOFD',
+        TITLE: 'OPTIONAL FIELDS'
+    },
+    {
+        id: 29,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APOFH',
+        TITLE: 'OPTIONAL FIELD LOCATIONS'
+    },
+    {
+        id: 30,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APP01',
+        TITLE: 'COMPANY OPTIONS'
+    },
+    {
+        id: 31,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APP02',
+        TITLE: 'INVOICING OPTIONS'
+    },
+    {
+        id: 32,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APP03',
+        TITLE: 'PAYMENT AND AGING OPTIONS'
+    },
+    {
+        id: 33,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APP04',
+        TITLE: 'INTEGRATION OPTIONS'
+    },
+    {
+        id: 34,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APP05',
+        TITLE: 'VENDOR OPTIONS'
+    },
+    {
+        id: 35,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APPJAID',
+        TITLE: 'POSTING JOURNAL GENERATED AP DETAILS'
+    },
+    {
+        id: 36,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APPJAIH',
+        TITLE: 'POSTING JOURNAL GENERATED AP ENTRIES'
+    },
+    {
+        id: 37,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APPJD',
+        TITLE: 'POSTING JOURNAL DETAILS'
+    },
+    {
+        id: 38,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APPJDO',
+        TITLE: 'POSTING JOURNAL DETAIL OPTIONAL FIELDS'
+    },
+    {
+        id: 39,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APPJGID',
+        TITLE: 'POSTING JOURNAL GENERATED GL DETAILS'
+    },
+    {
+        id: 40,
+        MODULE: 'ACCOUNTS PAYABLE',
+        TABLE: 'APPJH',
+        TITLE: 'POSTING JOURNAL ENTRIES'
+    },
     
     
-    /* 
-    'APIBS: INVOICE PAYMENT SCHEDULES',
-    'APIBT: INVOICE DETAIL COMMENTS',
-    'APINTCK: INTEGRITY CHECKER',
-    'APJTR: JOB COSTING TRANSACTIONS',
-    'APMSG: EMAIL MESSAGES',
-    'APOBL: DOCUMENTS',
-    'APOBLJ: OPEN DOCUMENT DETAILS',
-    'APOBLJO: OPEN DOC. DETAIL OPTIONAL FIELDS',
-    'APOBLJP: DOCUMENT DETAIL PAYMENTS',
-    'APOBLO: OPEN DOCUMENT OPTIONAL FIELDS',
-    'APOBP: DOCUMENT PAYMENTS',
-    'APOBS: DOCUMENT SCHED. PAYMENTS',
-    'APOFD: OPTIONAL FIELDS',
-    'APOFH: OPTIONAL FIELD LOCATIONS',
-    'APP01: COMPANY OPTIONS', 
-    'APP02: INVOICING OPTIONS', 
-    'APP03: PAYMENT AND AGING OPTIONS',
-    'APP04: INTEGRATION OPTIONS',
-    'APP05: VENDOR OPTIONS',
-    'APPJAID: POSTING JOURNAL GENERATED AP DETAILS',
-    'APPJAIH: POSTING JOURNAL GENERATED AP ENTRIES',
-    'APPJD: POSTING JOURNAL DETAILS',
-    'APPJDO: POSTING JOURNAL DETAIL OPTIONAL FIELDS',
-    'APPJGID: POSTING JOURNAL GENERATED GL DETAILS',
-    'APPJH: POSTING JOURNAL ENTRIES',
+    /*
     'APPJHO: POSTING JOURNAL ENTRY OPTIONAL FIELDS',
     'APPJS: POSTING JOURNALS',
     'APPOOP: CREATE OPEN DOCUMENT LIST',
