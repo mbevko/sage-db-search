@@ -2,6 +2,7 @@
 //possibly highlite search results (not necessary since others dissapear)
 //add to git ignore
 //consider adding a checkbox that shows all tables
+//consider making objects expandable with more details
 
 
 const initialDetails = [

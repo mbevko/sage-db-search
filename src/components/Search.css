@@ -1,5 +1,9 @@
 input {
-    width: 800px;
+    width: 600px;
+}
+
+button {
+    width: 150px;
 }
 
 .app_body {
@@ -21,15 +25,21 @@ input {
 }
 
 .module_head {
-    width: 150px;
+    width: 158px;
 }
 
 .table_head {
-    width: 205px;
+    width: 200px;
 }
 
 
 div.ui.huge {
     color: #0c264d;
     font-family: 'Archivo Narrow', sans-serif;
+}
+
+.input_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
