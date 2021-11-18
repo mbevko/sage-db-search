@@ -12,7 +12,7 @@ function Search({details}) {
         setSearchShow] = useState(false);
 
     const filteredItems = details.filter(item => {
-        return (item.TABLE.toUpperCase().includes(searchField.toUpperCase()) || item.TITLE.toUpperCase().includes(searchField.toUpperCase()) || item.MODULE.toUpperCase().includes(searchField.toUpperCase()));
+        return Object.values(item).map(n => n.toUpperCase()).includes(searchField.toUpperCase());
     });
 
     const handleChange = e => {
