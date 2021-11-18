@@ -3,9 +3,12 @@
 //add to git ignore
 //consider adding a checkbox that shows all tables
 //consider making objects expandable with more details
+//add 'x' to search bar
+//create an array for each module
+//add a link to each table
 
 
-const initialDetails = [
+const AccountsPayable = [
     {
         id: 1,
         MODULE: 'ACCOUNTS PAYABLE',
@@ -295,4 +298,4 @@ const initialDetails = [
 ]
 
 
-export default initialDetails
+export default AccountsPayable

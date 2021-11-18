@@ -4,7 +4,7 @@ import './Card.css'
 function Card({item}) {
 
     return (       
-        <tr>
+        <tr className={item.MODULE === "ACCOUNTS PAYABLE" ? "ap_row" : "ar_row"}>
             <td className="module">
                 {item.MODULE}
             </td>
