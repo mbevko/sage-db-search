@@ -9,7 +9,7 @@ function Card({item}) {
                 {item.MODULE}
             </td>
             <td className="table">
-                {item.TABLE}
+            <a className="table_link" rel="noreferrer" href={item.LINK} target="_blank">{item.TABLE}</a>
             </td>
             <td className="title">
                 {item.TITLE}

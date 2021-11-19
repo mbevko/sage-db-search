@@ -11,8 +11,8 @@ function Search({apMod, arMod}) {
         setSearchField] = useState("");
     const [searchShow,
         setSearchShow] = useState(false);
-    const [filterModules,
-        setFilterModules] = useState(false);
+    /* const [filterModules,
+        setFilterModules] = useState(false); */
 
     const filteredItems = apMod.filter(item => {
         return (item.TABLE.toUpperCase().includes(searchField.toUpperCase()) || item.TITLE.toUpperCase().includes(searchField.toUpperCase()) || item.MODULE.toUpperCase().includes(searchField.toUpperCase()));
@@ -60,18 +60,25 @@ function Search({apMod, arMod}) {
                         onChange={handleChange}
                         placeholder="Search by  Table, or Title"
                         type="search"/>
-
-
                     </div>
+
+
                     <button
                         className={searchShow
                         ? "ui active toggle button"
                         : "ui toggle button"}
                         onClick={handleClick}>Show tables</button>
+
+
                 </div>
+
+
                 <div className="filter_dropdown">
                     <DropdownInline/>
                 </div>
+
+
+
 
                 <table className="ui celled striped table">
                     <thead>

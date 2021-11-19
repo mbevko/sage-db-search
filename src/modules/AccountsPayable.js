@@ -1,7 +1,4 @@
 //add all modules
-//possibly highlite search results (not necessary since others dissapear)
-//add to git ignore
-//consider adding a checkbox that shows all tables
 //consider making objects expandable with more details
 //add 'x' to search bar
 //create an array for each module
@@ -13,19 +10,22 @@ const AccountsPayable = [
         id: 1,
         MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APADV',
-        TITLE: 'PAYMENT ADVICES'
+        TITLE: 'PAYMENT ADVICES',
+        LINK: 'http://sageaom.kcsvar.com/AOM2021/ARADV.xml'
     },
     {
         id: 2,
         MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APAGED',
-        TITLE: 'AGED DOCUMENTS'
+        TITLE: 'AGED DOCUMENTS',
+        LINK: 'http://sageaom.kcsvar.com/AOM2021/APAGED.xml'
     },
     {
         id: 3,
         MODULE: 'ACCOUNTS PAYABLE',
         TABLE: 'APBTA',
-        TITLE: 'PAYMENT AND ADJUSTMENT BATCHES'
+        TITLE: 'PAYMENT AND ADJUSTMENT BATCHES',
+        LINK: 'http://sageaom.kcsvar.com/AOM2021/APBTA.xml'
     },
     {
         id: 4,
