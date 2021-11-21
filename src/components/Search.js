@@ -34,7 +34,7 @@ function Search({apMod, arMod}) {
     const handleClick = () => {
         setSearchShow(!searchShow)
     }
-/* 
+    /*
     const handleFilterModules = () => {
         setFilterModules(!filterModules)
     } */
@@ -56,12 +56,11 @@ function Search({apMod, arMod}) {
 
                 <div className="input_btn">
                     <div className="ui icon input"><input
-                        type="text"
+                        type="search"
                         onChange={handleChange}
                         placeholder="Search by  Table, or Title"
                         type="search"/>
                     </div>
-
 
                     <button
                         className={searchShow
@@ -69,16 +68,11 @@ function Search({apMod, arMod}) {
                         : "ui toggle button"}
                         onClick={handleClick}>Show tables</button>
 
-
                 </div>
-
 
                 <div className="filter_dropdown">
                     <DropdownInline/>
                 </div>
-
-
-
 
                 <table className="ui celled striped table">
                     <thead>
