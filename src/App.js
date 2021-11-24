@@ -1,12 +1,14 @@
 import './App.css';
 import Search from './components/Search';
-import initialDetails from './initialDetails';
+import AccountsPayable from './modules/AccountsPayable';
+import AccountsReceivable from './modules/AccountsReceivable';
 import 'semantic-ui-css/semantic.min.css';
 
 function App() {
   return (
     <div>
-      <Search details={initialDetails} />
+      <Search apMod={AccountsPayable} arMod={AccountsReceivable} />
+      
     </div>
   );
 }

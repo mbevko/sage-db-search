@@ -3,16 +3,28 @@ import Scroll from './Scroll';
 import SearchList from './SearchList';
 import './Search.css';
 import 'semantic-ui-css/semantic.min.css';
+import DropdownInline from './DropdownInline';
 
-function Search({details}) {
+function Search({apMod, arMod}) {
 
     const [searchField,
         setSearchField] = useState("");
     const [searchShow,
         setSearchShow] = useState(false);
+    /* const [filterModules,
+        setFilterModules] = useState(false); */
 
+<<<<<<< HEAD
     const filteredItems = details.filter(item => {
         return Object.values(item).map(n => n.toUpperCase()).includes(searchField.toUpperCase());
+=======
+    const filteredItems = apMod.filter(item => {
+        return (item.TABLE.toUpperCase().includes(searchField.toUpperCase()) || item.TITLE.toUpperCase().includes(searchField.toUpperCase()) || item.MODULE.toUpperCase().includes(searchField.toUpperCase()));
+    });
+
+    const filteredItemsAr = arMod.filter(item => {
+        return (item.TABLE.toUpperCase().includes(searchField.toUpperCase()) || item.TITLE.toUpperCase().includes(searchField.toUpperCase()) || item.MODULE.toUpperCase().includes(searchField.toUpperCase()));
+>>>>>>> development
     });
 
     const handleChange = e => {
@@ -27,12 +39,16 @@ function Search({details}) {
     const handleClick = () => {
         setSearchShow(!searchShow)
     }
+    /*
+    const handleFilterModules = () => {
+        setFilterModules(!filterModules)
+    } */
 
     function searchList() {
         if (searchShow) {
             return (
                 <Scroll>
-                    <SearchList filteredItems={filteredItems}/>
+                    <SearchList filteredItems={filteredItems} filteredItemsAr={filteredItemsAr}/>
                 </Scroll>
             );
         }
@@ -42,29 +58,37 @@ function Search({details}) {
         <section className="app_body">
             <div className="main_header">
                 <div className="ui huge header">Sage 300 ERP</div>
+
                 <div className="input_btn">
                     <div className="ui icon input"><input
-                        type="text"
+                        type="search"
                         onChange={handleChange}
-                        placeholder="Search by  Table, or Title"/>
-                        <i aria-hidden="true" class="search circular link icon"></i>
+                        placeholder="Search by  Table, or Title"
+                        type="search"/>
                     </div>
+
                     <button
-                        class={searchShow
+                        className={searchShow
                         ? "ui active toggle button"
                         : "ui toggle button"}
                         onClick={handleClick}>Show tables</button>
+
                 </div>
+
+                <div className="filter_dropdown">
+                    <DropdownInline/>
+                </div>
+
                 <table className="ui celled striped table">
                     <thead>
                         <tr>
-                            <th class="module_head">
+                            <th className="module_head">
                                 MODULE
                             </th>
-                            <th class="table_head">
+                            <th className="table_head">
                                 TABLE
                             </th>
-                            <th class="title_head">
+                            <th className="title_head">
                                 TITLE
                             </th>
                         </tr>
