@@ -80,7 +80,7 @@ function Search({apMod, arMod}) {
                             <th className="module_head">
                                 MODULE
                             </th>
-                            <th className="table_head">
+                            <th className="table_head"SFADFSDAFS>
                                 TABLE
                             </th>
                             <th className="title_head">
