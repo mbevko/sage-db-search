@@ -14,17 +14,12 @@ function Search({apMod, arMod}) {
     /* const [filterModules,
         setFilterModules] = useState(false); */
 
-<<<<<<< HEAD
-    const filteredItems = details.filter(item => {
-        return Object.values(item).map(n => n.toUpperCase()).includes(searchField.toUpperCase());
-=======
     const filteredItems = apMod.filter(item => {
         return (item.TABLE.toUpperCase().includes(searchField.toUpperCase()) || item.TITLE.toUpperCase().includes(searchField.toUpperCase()) || item.MODULE.toUpperCase().includes(searchField.toUpperCase()));
     });
 
     const filteredItemsAr = arMod.filter(item => {
         return (item.TABLE.toUpperCase().includes(searchField.toUpperCase()) || item.TITLE.toUpperCase().includes(searchField.toUpperCase()) || item.MODULE.toUpperCase().includes(searchField.toUpperCase()));
->>>>>>> development
     });
 
     const handleChange = e => {
